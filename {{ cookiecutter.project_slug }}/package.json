@@ -1,6 +1,6 @@
 {
   "name": "{{ cookiecutter.project_slug }}",
-  "version": "{{ cookiecutter.version }}",
+  "version": "{{ cookiecutter.project_version }}",
   "scripts": {
     "start": "webpack-serve",
     "build:dev": "webpack --mode development",
