@@ -1,0 +1,1 @@
+import style from "../scss/{{ cookiecutter.project_slug }}.scss";

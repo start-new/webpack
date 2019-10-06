@@ -1,0 +1,7 @@
+{
+    "project_name": "My Awesome Project",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "project_description": "My fun project",
+    "project_version": "0.1.0",
+    "use_copy_for_images": "y",
+  }

@@ -1,0 +1,11 @@
+>= 1%
+last 2 versions
+not dead
+Chrome >= 60
+Firefox >= 60
+Firefox ESR
+Edge >= 16
+Explorer 11
+iOS >= 10
+Safari >= 10
+Android >= 6
