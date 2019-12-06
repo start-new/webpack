@@ -42,9 +42,9 @@ module.exports = {
           "sass-loader"
         ]
       },
-      // images
-      {% if cookiecutter.use_copy_for_images == 'n' -%}
+      {%- if cookiecutter.use_copy_for_images == 'n' %}
       {
+              // images
         test: /\.(png|jpe?g|gif|svg)$/,
         use: [{
           loader: "file-loader",
@@ -52,8 +52,7 @@ module.exports = {
             outputPath: 'images'
           }
         }]
-      },
-      {% endif %}
+      },{% endif %}
       // fonts
       {
         test: /\.(woff|woff2|ttf|otf|eot)$/,
